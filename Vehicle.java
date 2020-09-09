@@ -33,7 +33,7 @@ public class Vehicle {
     public String getSize() {
         return size;
     }
-
+//get velocity
     public int getCurrentVelocity() {
         return currentVelocity;
     }
