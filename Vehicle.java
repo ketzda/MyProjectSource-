@@ -14,12 +14,12 @@ public class Vehicle {
         this.currentVelocity = 0;
         this.currentDirection = 0;
     }
-
+//steer method
     public void steer(int direction) {
         this.currentDirection += direction;
         System.out.println("Steering at " + currentDirection + "  in degrees");
     }
-
+// move method
     public void move(int velocity, int direction) {
         this.currentVelocity = velocity;
         this.currentDirection = direction;
